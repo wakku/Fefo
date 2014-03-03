@@ -15,7 +15,7 @@ class ScratchController < ApplicationController
 	end
 
 	def index
-		render :text => 'Mãe'
+		render :text => rest_graph.get('me').inspect
 	end
 
 	private
