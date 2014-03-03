@@ -1,4 +1,8 @@
 Game::Application.routes.draw do
+
+  match ':controller/:action'
+
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

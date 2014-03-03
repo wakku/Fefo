@@ -3,9 +3,11 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 
 gem "koala"
-gem "json"
 gem 'unicorn'
 gem 'rest-graph'
+# these gems are used in rest-graph
+gem 'rest-client', '>=1.6'
+gem 'json'        # you may also use other JSON parsers/generators, i.e. 'yajl-ruby' or 'json_pure'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

@@ -1,0 +1,10 @@
+development:
+    app_id: 'XXXXXXXXXXXXXX'
+    secret: 'YYYYYYYYYYYYYYYYYYYYYYYYYYY'
+    callback_host: 'my.dev.host.com'
+
+production:
+    app_id: '530981277014841'
+    secret: '4430da27a42feea3dcc4008b3a28bf77'
+    canvas: 'fefo_goro'
+    callback_host: 'fefo.heroku.com'
