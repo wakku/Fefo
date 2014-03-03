@@ -14,6 +14,10 @@ class ScratchController < ApplicationController
 	    render :text => rest_graph.get('me/feed').inspect
 	end
 
+	def index
+		render :text => "Oi Mãe, tá funcionando (="
+	end
+
 	private
 
 		def filter_setup_rest_graph
