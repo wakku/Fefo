@@ -3,7 +3,7 @@ class ScratchController < ApplicationController
 	before_filter :filter_setup_rest_graph
 
 	def me
-	    render :text => rest_graph.get('me').inspect
+	    render :text => rest_graph.get('me/home').inspect
 	end
 
 	def feed
