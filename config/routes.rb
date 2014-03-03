@@ -2,7 +2,9 @@ Game::Application.routes.draw do
 
   match ':controller/:action'
 
-  
+  root 'scratch#index'
+  post '/', to: 'scratch#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
