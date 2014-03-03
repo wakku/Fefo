@@ -15,7 +15,7 @@ class ScratchController < ApplicationController
 	end
 
 	def index
-		render :text => 'Oi Mãe, tá funcionando (='
+		render :text => 'Mãe tá funcionando (='
 	end
 
 	private
